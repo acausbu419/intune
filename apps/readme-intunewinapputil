@@ -1,0 +1,24 @@
+Usage Examples (Powershell)
+
+CD to working directory
+
+#Normal Executable (MSI is not done with this tool)
+.\IntuneWinAppUtil.exe -c . -s .\VMware-Horizon-Client-2006-8.0.0-16531419.exe -o .
+#Desktop Shortcuts (URL)
+.\IntuneWinAppUtil.exe -c .\global\IOD -s .\global\IOD\install.cmd -o .\packagefiles
+.\IntuneWinAppUtil.exe -c .\global\Kronos -s .\global\Kronos\install.cmd -o .\packagefiles
+.\IntuneWinAppUtil.exe -c .\global\Visuwell\ -s .\global\Visuwell\install.cmd -o .\packagefiles
+
+
+Open powershell as admin.
+
+Navigate to your working folder e.g. 'cd c:\users\username\documents\intune
+Call your file with the command line arguments above where:
+    -c is your source folder for all the package files
+    -s is your source file that will be referenced during the package installation
+    -o is your output folder
+
+After a successful run you should see a install.intunewin file was generated in the current folder.
+Rename the file to something more descriptive e.g. visuwell.intunewin
+
+Now you should be able to import & test the package with Intune's web app.

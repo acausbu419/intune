@@ -1,0 +1,7 @@
+>printers - will need every model or links to the drivers to upload to printerlogic
+
+>gpo - Computer Configuration-->Administrative Templates-->Network-->Lanman Workstation-->Enable insecure guest logons - to be added to infinity deployment group
+
+>Install PioneerRx Bootstrapper - can probably be added as a installed script
+    \\pioneerserver\Installs\PioneerRx Boot Strapper\NewTechBootStrapper.exe
+
