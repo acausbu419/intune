@@ -1,9 +1,9 @@
-#Get-NetIPAddress -AddressFamily IPv4 | Where-Object ($_.IPAddress -Contains "10.110.")
+#Get-NetIPAddress -AddressFamily IPv4 | Where-Object ($_.IPAddress -Contains "<#IP Address#>")
 
 
 try{
     #Grab HOSTNAME and IPV4 Address
-    $ipv4Address = Get-NetIPAddress -AddressFamily IPv4 | Where-Object IPAddress -Like "10.110.*" | Select-Object IPAddress
+    $ipv4Address = Get-NetIPAddress -AddressFamily IPv4 | Where-Object IPAddress -Like "<#IP Address#>*" | Select-Object IPAddress
     $hostname = $env:COMPUTERNAME
 
     if("[dlv][efopt]-\d\d\d-\d\d\d\d\d\d" -notmatch $hostname){
