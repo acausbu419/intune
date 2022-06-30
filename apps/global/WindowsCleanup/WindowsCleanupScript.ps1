@@ -70,9 +70,9 @@ powercfg -x -disk-timeout-dc 0
 
 #c:\windows\syswow64\onedrivesetup.exe /uninstall
 
-if(!(Test-Path -Path 'HKLM:\Software\ARcare\AutoPilot\')){
-    New-Item -Path 'HKLM:\Software\ARcare' -ItemType key
-    New-Item -Path 'HKLM:\Software\ARcare\AutoPilot' -ItemType key
-    New-ItemProperty -Path 'HKLM:\Software\ARcare\AutoPilot\' -Name WindowsCleanup -Value 1 -Force
+if(!(Test-Path -Path 'HKLM:\Software\COMPANYNAME\AutoPilot\')){
+    New-Item -Path 'HKLM:\Software\COMPANYNAME' -ItemType key
+    New-Item -Path 'HKLM:\Software\COMPANYNAME\AutoPilot' -ItemType key
+    New-ItemProperty -Path 'HKLM:\Software\COMPANYNAME\AutoPilot\' -Name WindowsCleanup -Value 1 -Force
 }
-else{New-ItemProperty -Path 'HKLM:\Software\ARcare\AutoPilot\' -Name WindowsCleanup -Value 1 -Force}
+else{New-ItemProperty -Path 'HKLM:\Software\COMPANYNAME\AutoPilot\' -Name WindowsCleanup -Value 1 -Force}

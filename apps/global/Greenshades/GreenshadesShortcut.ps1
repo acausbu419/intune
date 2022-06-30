@@ -2,7 +2,7 @@ if (-not (Test-Path "C:\Users\Public\Desktop\Greenshades.url"))
 {
 $null = $WshShell = New-Object -comObject WScript.Shell
 $path = "C:\Users\Public\Desktop\Greenshades.url"
-$targetpath = "https://www.greenshadesonline.com/SSO/EmployeeApp/#/company/ARCARE/login"
+$targetpath = "https://www.greenshadesonline.com/SSO/EmployeeApp/#/company/COMPANYNAME/login"
 #$iconlocation = "C:\ProgramData\AutoPilotConfig\Icons\GreenshadesIcon.ico"
 #$iconfile = "IconFile=" + $iconlocation
 $Shortcut = $WshShell.CreateShortcut($path)

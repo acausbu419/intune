@@ -24,12 +24,5 @@ Get-AzureADGroup -SearchString "" | ForEach { [pscustomobject] @{ Name= $_.Displ
 <groupmembership>
     <accessgroup desc = "Administrators">
         <member name = "Administrator"/>
-        <member name = "S-1-12-1-1716764584-1121958674-133345920-1183151834" />
-        <member name = "S-1-12-1-214828840-1231056527-2620021900-1492797148" />
-        <member name = "S-1-12-1-4214832305-1235831724-2267330217-2734693911" />
-        <member name = "S-1-12-1-2816856376-1158024777-4052618403-3037702127" />
-        <member name = "S-1-12-1-3335175723-1321312772-2928845969-1323680626" />
-        <member name = "S-1-12-1-1602739945-1290844031-621710233-2920778706" />
-        <member name = "S-1-12-1-3952266056-1324206725-1406820235-497546372" />
     </accessgroup>
 </groupmembership>

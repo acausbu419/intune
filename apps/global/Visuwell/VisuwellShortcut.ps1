@@ -2,7 +2,7 @@ if (-not (Test-Path "C:\Users\Public\Desktop\Visuwell.url"))
 {
 $null = $WshShell = New-Object -comObject WScript.Shell
 $path = "C:\Users\Public\Desktop\Visuwell.url"
-$targetpath = "https://virtualcarenow.arcare.net"
+$targetpath = "https://virtualcarenow.COMPANYNAME.net"
 #$iconlocation = "C:\ProgramData\AutoPilotConfig\Icons\VisuwellIcon.ico"
 $iconfile = "IconFile=" + $iconlocation
 $Shortcut = $WshShell.CreateShortcut($path)

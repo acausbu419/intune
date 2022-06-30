@@ -7,29 +7,29 @@
           <start:DesktopApplicationTile Size="2x2" Column="0" Row="2" DesktopApplicationID="https://outlook.office365.com" />
           <start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationID="https://careware.adh.arkansas.gov/careware/rs/index.htm" />
           <start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationID="https://west.intergyhosted.com" />
-          <start:DesktopApplicationTile Size="2x2" Column="2" Row="2" DesktopApplicationID="https://reqlogic.arcare.net/ReQLogic/Login.aspx" />
-          <start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationID="https://camera.arcare.net" />
+          <start:DesktopApplicationTile Size="2x2" Column="2" Row="2" DesktopApplicationID="https://reqlogic.COMPANYNAME.net/ReQLogic/Login.aspx" />
+          <start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationID="https://camera.COMPANYNAME.net" />
         </start:Group>
         <start:Group Name="Resources">
-          <start:DesktopApplicationTile Size="2x2" Column="4" Row="4" DesktopApplicationID="https://www.healthstream.com/hlc/arcare" />
+          <start:DesktopApplicationTile Size="2x2" Column="4" Row="4" DesktopApplicationID="https://www.healthstream.com/hlc/COMPANYNAME" />
           <start:DesktopApplicationTile Size="2x2" Column="4" Row="0" DesktopApplicationID="https://nationalregistry.fmcsa.dot.gov/NRPublicUI/home.seam" />
           <start:DesktopApplicationTile Size="2x2" Column="2" Row="6" DesktopApplicationID="https://ekasper.chfs.ky.gov" />
           <start:DesktopApplicationTile Size="2x2" Column="4" Row="6" DesktopApplicationID="https://mississippi.pmpaware.net/login" />
           <start:DesktopApplicationTile Size="2x2" Column="2" Row="4" DesktopApplicationID="https://www.labcorplink.com" />
           <start:DesktopApplicationTile Size="2x2" Column="2" Row="2" DesktopApplicationID="https://bit.ly/32HZvBO" />
           <start:DesktopApplicationTile Size="2x2" Column="4" Row="2" DesktopApplicationID="https://msdsmanagement.msdsonline.com/company/5D3BA246-6D3B-4122-8663-D4EA0CBF0FF7" />
-          <start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationID="https://arcare.compliancemanager.healthicity.com/users/sign_in" />
+          <start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationID="https://COMPANYNAME.compliancemanager.healthicity.com/users/sign_in" />
           <start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationID="https://bit.ly/3neGjDI" />
           <start:DesktopApplicationTile Size="2x2" Column="0" Row="6" DesktopApplicationID="https://arkansas.pmpaware.net/login" />
-          <start:DesktopApplicationTile Size="2x2" Column="0" Row="2" DesktopApplicationID="https://arcare.sharepoint.com/SitePages/Home.aspx" />
+          <start:DesktopApplicationTile Size="2x2" Column="0" Row="2" DesktopApplicationID="https://COMPANYNAME.sharepoint.com/SitePages/Home.aspx" />
         </start:Group>
         <start:Group Name="Support">
-          <start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationID="https://arcare.freshdesk.com" />
+          <start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationID="https://COMPANYNAME.freshdesk.com" />
           <start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Accessories\Quick Assist.lnk" />
         </start:Group>
         <start:Group Name="Monies">
           <start:DesktopApplicationTile Size="2x2" Column="2" Row="0" DesktopApplicationID="https://secure4.saashr.com/ta/6161089.login" />
-          <start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationID="https://www.greenshadesonline.com/SSO/EmployeeApp/#/company/ARCARE/login" />
+          <start:DesktopApplicationTile Size="2x2" Column="0" Row="0" DesktopApplicationID="https://www.greenshadesonline.com/SSO/EmployeeApp/#/company/COMPANYNAME/login" />
         </start:Group>
       </defaultlayout:StartLayout>
     </StartLayoutCollection>
